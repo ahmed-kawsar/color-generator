@@ -4,6 +4,7 @@ import Values from 'values.js';
 import SingleColor from './SingleColor';
 
 const App = () => {
+  document.title = 'color generator';
   const [color, setColor] = useState('');
   const [error, setError] = useState(false);
   const [list, setList] = useState(new Values('#f15025').all(10));
